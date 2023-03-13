@@ -1,4 +1,39 @@
-kus_vas={"﻿Mis suvi on kuud?":"juuni, juuli, august", "Milline taim sümboliseerib suve?":"päevalill", "Mis püha on suve algus?":"suvine pööripäev", "Mis on suvel õues mängitava mängu nimi?":"lasertag", "Millist puuvilja peetakse suve sümboliks?":"arbuusi"}
+
+kus_vas={""} 
+import random
+
+# Открываем файл с вопросами и ответами
+with open('kusimised_vastused.txt', 'r') as f:
+    lines = f.readlines()
+
+# Создаем список для хранения вопросов и ответов
+questions = []
+answers = []
+
+# Проходимся по строкам файла и заполняем списки вопросов и ответов
+for i, line in enumerate(lines):
+    if i % 2 == 0:
+        # Вопросы находятся на четных строках
+        questions.append(line.strip())
+    else:
+        # Ответы находятся на нечетных строках
+        answers.append(line.strip())
+
+# Выбираем случайный вопрос
+index = random.randint(0, len(questions)-1)
+question = questions[index]
+answer = answers[index]
+
+# Выводим вопрос и ждем ответа от пользователя
+print(question)
+user_answer = input()
+
+# Проверяем ответ пользователя
+if user_answer == answer:
+    print("Верно!")
+else:
+    print("Неверно. Правильный ответ:", answer)
+
 
 def kusimus_vastused_1(n):
     """
