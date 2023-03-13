@@ -1,0 +1,12 @@
+﻿Mis suvi on kuud?: juuni, juuli, august
+Milline taim sümboliseerib suve?: päevalill
+Mis püha on suve algus?: suvine pööripäev
+Mis on suvel õues mängitava mängu nimi?: lasertag
+Millist puuvilja peetakse suve sümboliks?: arbuusi
+Mis värvi seostatakse suvega?: kollane
+Millist linna Venemaal peetakse suvepealinnaks?: Peterburi
+Mis on keskmine suvetemperatuur Eestis?: 17 kraadi
+Mis on Eesti suvepealinn?: Pärnu
+Millise kahe kuu nimi erineb ühe tähe võrra?: juuni, juuli
+Kas päev on suvel pikk või lühike?: pikk
+Milliseid kuud loetakse lõunapoolkeral suveks?: detsember, jaanuar, veebruar
