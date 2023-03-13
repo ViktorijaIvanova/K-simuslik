@@ -5,7 +5,7 @@ Mis on suvel õues mängitava mängu nimi?: lasertag
 Millist puuvilja peetakse suve sümboliks?: arbuusi
 Mis värvi seostatakse suvega?: kollane
 Millist linna Venemaal peetakse suvepealinnaks?: Peterburi
-Mis on keskmine suvetemperatuur Eestis?: 17 kraadi
+Mis on keskmine suvetemperatuur Eestis?: 17 
 Mis on Eesti suvepealinn?: Pärnu
 Millise kahe kuu nimi erineb ühe tähe võrra?: juuni, juuli
 Kas päev on suvel pikk või lühike?: pikk
